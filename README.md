@@ -5,4 +5,4 @@ Author: Kamila Magiera
 
 # Data
 
-# Codr
+# Code
