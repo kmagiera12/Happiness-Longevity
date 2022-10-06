@@ -1,2 +1,2 @@
 # Smiling-Longevity
-author: Kamila Magiera
+Author: Kamila Magiera
