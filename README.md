@@ -1,4 +1,4 @@
-# Happiness Longevity
+# Happiness and Longevity
 Author: Kamila Magiera
 
 # Introduction
