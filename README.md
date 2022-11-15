@@ -11,4 +11,4 @@ Celeb Photos - The Celeb Photos folder contains all the photos of the celebritie
 # Code
 SmilingLong.Rmd - contains the R code used to obtain the regression model in Table 1. Does not require any packages to be imported. R version 4.2.1 (2022-06-23) -- "Funny-Looking Kid". Directory must be changed in order to run.
 
-comilescores.ipynb - contains the python code used to obtain the happiness percentage scores for each celebrity using DeepFace. Run in JupyterLab and requires packages: os, cv2, deepface, and matplotlib.pyplot to be imported. Directories must also be changed in order to run.
+compilescores.ipynb - contains the python code used to obtain the happiness percentage scores for each celebrity using DeepFace. Run in JupyterLab and requires packages: os, cv2, deepface, and matplotlib.pyplot to be imported. Directories must also be changed in order to run.
