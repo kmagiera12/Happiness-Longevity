@@ -1,4 +1,4 @@
-# Smiling-Longevity
+# Happiness Longevity
 Author: Kamila Magiera
 
 # Introduction
