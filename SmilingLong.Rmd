@@ -1,0 +1,33 @@
+---
+title: "Smiling Longevity"
+author: "Kamila Magiera"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+
+ages <- read.csv("/Users/kamilamagiera/Documents/DA401/Ages.csv")
+
+```
+
+
+```{r}
+lmages = lm(Age.of.Death~Sex+Year.born+Happiness.Category, data=ages)
+summary(lmages)
+summary(ages$Age.of.Death - lmages$fitted.values)
+```
+
+```{r}
+library(caTools)
+library(car)
+library(quantmod)
+library(MASS)
+library(corrplot)
+plot(lmages)
+vif(lmages)
+vif_values <- vif(lmages) 
+barplot(vif_values, main = "VIF Values", horiz = TRUE, col = "steelblue")
+```
